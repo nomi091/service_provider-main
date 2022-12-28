@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "b7eada03aa1af6a19e2ac008bc8e3baf9ccb19786808f7fa3382ee094cf1e00c"
+build_start_time: [1671656323, 369535923]
+build_end_time: [1671656323, 589534997]
+inputs:
+  ? "/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/macos/Flutter/GeneratedPluginRegistrant.swift"
+  : !private [1671656280, 771861076]
+  ? "/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/macos/Runner/AppDelegate.swift"
+  : !private [1666234346, 0]
+  ? "/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/macos/Runner/MainFlutterWindow.swift"
+  : !private [1666234346, 0]

@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.service_provider"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml
+10
+11    <!-- Camera Permission -->
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:4:5-80
+12-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:4:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:5:5-81
+13-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:5:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:6:5-65
+14-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:6:22-62
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:8:5-67
+15-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:8:22-64
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:9:5-79
+16-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:10:5-81
+17-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:10:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:4:5-80
+18-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:4:22-77
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+19-->[:geolocator_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-77
+19-->[:geolocator_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-74
+20
+21    <queries>
+21-->[:file_picker] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:15
+22        <intent>
+22-->[:file_picker] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:18
+23            <action android:name="android.intent.action.GET_CONTENT" />
+23-->[:file_picker] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-72
+23-->[:file_picker] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:21-69
+24
+25            <data android:mimeType="*/*" />
+25-->[:file_picker] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-44
+25-->[:file_picker] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:15:19-41
+26        </intent>
+27        <!-- Needs to be explicitly declared on Android R+ -->
+28        <package android:name="com.google.android.apps.maps" />
+28-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+28-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+29    </queries> <!-- Include required permissions for Google Maps API to run. -->
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+30-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+31
+32    <uses-feature
+32-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+33        android:glEsVersion="0x00020000"
+33-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+34        android:required="true" />
+34-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+35
+36    <application
+37        android:name="android.app.Application"
+37-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:13:51-84
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] /Users/apple/.gradle/caches/transforms-3/d363e3b5616f580c766e3e2b3c05f27d/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+39        android:icon="@mipmap/ic_launcher"
+39-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:13:85-119
+40        android:label="service_provider" >
+40-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:13:18-50
+41        <meta-data
+41-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:14:9-124
+42            android:name="com.google.android.geo.API_KEY"
+42-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:14:20-65
+43            android:value="AIzaSyDORAiwsJBUe0hBl6ViXWmf97aVT3VnYqg" />
+43-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:14:66-121
+44
+45        <activity
+45-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:15:9-25:20
+46            android:name="com.example.service_provider.MainActivity"
+46-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:15:19-47
+47            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+47-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:15:138-288
+48            android:exported="true"
+48-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:15:48-71
+49            android:hardwareAccelerated="true"
+49-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:15:289-323
+50            android:launchMode="singleTop"
+50-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:15:72-102
+51            android:theme="@style/LaunchTheme"
+51-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:15:103-137
+52            android:windowSoftInputMode="adjustResize" >
+52-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:15:324-366
+53
+54            <!--
+55                 Specifies an Android theme to apply to this Activity as soon as
+56                 the Android process has started. This theme is visible to the user
+57                 while the Flutter UI initializes. After that, this theme continues
+58                 to determine the Window background behind the Flutter UI.
+59            -->
+60            <meta-data
+60-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:20:13-120
+61                android:name="io.flutter.embedding.android.NormalTheme"
+61-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:20:24-79
+62                android:resource="@style/NormalTheme" />
+62-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:20:80-117
+63
+64            <intent-filter>
+64-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:21:13-24:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:22:17-69
+65-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:22:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:23:17-77
+67-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:23:27-74
+68            </intent-filter>
+69        </activity>
+70        <!--
+71             Don't delete the meta-data below.
+72             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+73        -->
+74        <meta-data
+74-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:28:9-72
+75            android:name="flutterEmbedding"
+75-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:28:20-51
+76            android:value="2" />
+76-->/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app/src/main/AndroidManifest.xml:28:52-69
+77
+78        <service
+78-->[:geolocator_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:56
+79            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+79-->[:geolocator_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-77
+80            android:enabled="true"
+80-->[:geolocator_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-35
+81            android:exported="false"
+81-->[:geolocator_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+82            android:foregroundServiceType="location" />
+82-->[:geolocator_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/geolocator_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-53
+83
+84        <provider
+84-->[:image_picker_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+85            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+85-->[:image_picker_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-82
+86            android:authorities="com.example.service_provider.flutter.image_provider"
+86-->[:image_picker_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-74
+87            android:exported="false"
+87-->[:image_picker_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+88            android:grantUriPermissions="true" >
+88-->[:image_picker_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+89            <meta-data
+89-->[:image_picker_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:75
+90                android:name="android.support.FILE_PROVIDER_PATHS"
+90-->[:image_picker_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+91                android:resource="@xml/flutter_image_picker_file_paths" />
+91-->[:image_picker_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-72
+92        </provider>
+93
+94        <activity
+94-->[:url_launcher_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+95            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+95-->[:url_launcher_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+96            android:exported="false"
+96-->[:url_launcher_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+97            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+97-->[:url_launcher_android] /Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+98
+99        <uses-library
+99-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+100            android:name="androidx.window.extensions"
+100-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+101            android:required="false" />
+101-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+102        <uses-library
+102-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+103            android:name="androidx.window.sidecar"
+103-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+104            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+104-->[androidx.window:window:1.0.0-beta04] /Users/apple/.gradle/caches/transforms-3/49bc944d29f70d45aa5add8e43e3247e/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+105        <uses-library
+105-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+106            android:name="org.apache.http.legacy"
+106-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+107            android:required="false" />
+107-->[com.google.android.gms:play-services-maps:18.0.2] /Users/apple/.gradle/caches/transforms-3/42e8e193afdde6a89d257fba9624cf99/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:18.0.1] /Users/apple/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:18.0.1] /Users/apple/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:18.0.1] /Users/apple/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:18.0.1] /Users/apple/.gradle/caches/transforms-3/3ff720be07735976176520d1c05fb799/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:18.0.0] /Users/apple/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:18.0.0] /Users/apple/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:18.0.0] /Users/apple/.gradle/caches/transforms-3/601d4158b382ad9f634d3bbb23a34c83/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+117    </application>
+118
+119</manifest>

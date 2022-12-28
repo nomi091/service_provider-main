@@ -1,0 +1,18 @@
+<lint-module
+    format="1"
+    dir="/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/android/app"
+    name=":app"
+    type="APP"
+    maven="android:app:"
+    gradle="7.1.2"
+    buildFolder="/Users/apple/Desktop/24 november 2022 Darbak/customer app code 24 november with some issue/service_provider-main/build/app"
+    bootClassPath="/Users/apple/Library/Android/sdk/platforms/android-33/android.jar:/Users/apple/Library/Android/sdk/build-tools/30.0.3/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>
